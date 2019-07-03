@@ -36,6 +36,11 @@ settings.theme = `
 .sk_theme #sk_omnibarSearchResult>ul>li.focused {
     background: #3e4452;
 }
+
+.sk_theme .prompt .separator {
+    display: none;
+}
+
 #sk_status, #sk_find {
     font-size: 20pt;
 }`;
