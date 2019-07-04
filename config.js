@@ -7,6 +7,8 @@ unmapAllExcept(minimalKeySet, /bitbucket\.org/i);
 
 unmap('<Ctrl-h>')
 
+settings.hintAlign = "left";
+
 settings.theme = `
 .sk_theme {
     font-family: sans-serif;
