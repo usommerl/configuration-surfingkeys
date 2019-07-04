@@ -1,6 +1,6 @@
 var minimalKeySet = ['E', 'R', 'S', 'D', '<<', '>>', '<Ctrl-6>']
 
-unmapAllExcept(minimalKeySet, /twitter\.com/i);
+unmapAllExcept(minimalKeySet, /(twitter|reddit)\.com/i);
 unmapAllExcept(minimalKeySet, /(mail|calendar|chat)\.google\.com/i);
 unmapAllExcept(minimalKeySet, /exelonix\.atlassian\.net/i);
 unmapAllExcept(minimalKeySet, /bitbucket\.org/i);
