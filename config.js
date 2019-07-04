@@ -1,4 +1,8 @@
-unmapAllExcept(['E', 'R', 'S', 'D', '<<', '>>', '<Ctrl-6>'], /(google|twitter)\.com/i);
+var minimalKeySet = ['E', 'R', 'S', 'D', '<<', '>>', '<Ctrl-6>']
+
+unmapAllExcept(minimalKeySet, /(google|twitter)\.com/i);
+unmapAllExcept(minimalKeySet, /exelonix\.atlassian\.net/i);
+unmapAllExcept(minimalKeySet, /bitbucket\.org/i);
 
 unmap('<Ctrl-h>')
 
