@@ -8,6 +8,7 @@ unmapAllExcept(minimalKeySet, /bitbucket\.org/i);
 unmap('<Ctrl-h>')
 
 settings.hintAlign = "left";
+Hints.style('border: solid 3px #552a48; color:#efe1eb; background: initial; background-color: #552a48; font-family: sans-serif;');
 
 settings.theme = `
 .sk_theme {
