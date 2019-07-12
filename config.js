@@ -1,9 +1,10 @@
-var minimalKeySet = ['E', 'R', 'S', 'D', '<<', '>>', '<Ctrl-6>']
+var minimalKeySet = ['E', 'R', 'S', 'D', '<<', '>>', '<Ctrl-6>', '<Alt-p>', 'x', 'X']
 
-unmapAllExcept(minimalKeySet, /(twitter|reddit)\.com/i);
-unmapAllExcept(minimalKeySet, /(mail|calendar|chat)\.google\.com/i);
-unmapAllExcept(minimalKeySet, /exelonix\.atlassian\.net/i);
-unmapAllExcept(minimalKeySet, /bitbucket\.org/i);
+unmapAllExcept(minimalKeySet,                        /(twitter|reddit)\.com/i);
+unmapAllExcept(minimalKeySet,                        /(calendar|chat)\.google\.com/i);
+unmapAllExcept(minimalKeySet.filter(k => k !== 'x'), /mail\.google\.com/i);
+unmapAllExcept(minimalKeySet,                        /exelonix\.atlassian\.net/i);
+unmapAllExcept(minimalKeySet,                        /bitbucket\.org/i);
 
 unmap('<Ctrl-h>')
 
