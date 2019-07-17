@@ -1,10 +1,10 @@
-var minimalKeySet = ['E', 'R', 'S', 'D', '<<', '>>', '<Ctrl-6>', '<Alt-p>', 'x', 'X']
+var keySet0 = ['E', 'R', 'S', 'D', '<<', '>>', '<Ctrl-6>', '<Alt-p>', 'X'];
+var keySet1 = keySet0.concat(['f', 'gg', 'd', 'u', 'x']);
 
-unmapAllExcept(minimalKeySet,                        /(twitter|reddit)\.com/i);
-unmapAllExcept(minimalKeySet,                        /(calendar|chat)\.google\.com/i);
-unmapAllExcept(minimalKeySet.filter(k => k !== 'x'), /mail\.google\.com/i);
-unmapAllExcept(minimalKeySet,                        /exelonix\.atlassian\.net/i);
-unmapAllExcept(minimalKeySet,                        /bitbucket\.org/i);
+unmapAllExcept(keySet0, /(mail|calendar|chat)\.google\.com/i);
+unmapAllExcept(keySet1, /(twitter|reddit)\.com/i);
+unmapAllExcept(keySet1, /exelonix\.atlassian\.net/i);
+unmapAllExcept(keySet1, /bitbucket\.org/i);
 
 unmap('<Ctrl-h>')
 
