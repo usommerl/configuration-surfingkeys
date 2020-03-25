@@ -4,6 +4,7 @@ var keySet1 = keySet0.concat(['f', 'gg', 'd', 'u', 'x']);
 unmapAllExcept(keySet0, /(mail|calendar|chat)\.google\.com/i);
 unmapAllExcept(keySet1, /(twitter|reddit)\.com/i);
 unmapAllExcept(keySet1, /exelonix\.atlassian\.net/i);
+unmapAllExcept(keySet0, /(dev\.)?(monitoring|obre)\.exelonix\.com/i);
 unmapAllExcept(keySet1, /bitbucket\.org/i);
 
 unmap('<Ctrl-h>')
