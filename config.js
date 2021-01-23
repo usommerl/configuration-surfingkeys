@@ -5,6 +5,7 @@ unmapAllExcept(keySet0, /(mail|calendar|chat)\.google\.com/i);
 unmapAllExcept(keySet1, /(twitter|reddit)\.com/i);
 unmapAllExcept(keySet1, /exelonix\.atlassian\.net/i);
 unmapAllExcept(keySet0, /(dev\.)?(monitoring|obre)\.exelonix\.com/i);
+unmapAllExcept(keySet0, /.+\.grafana\.net/i);
 unmapAllExcept(keySet0, /(ops)\.corona-warn-buzzer\.(de|com)/i);
 unmapAllExcept(keySet1, /bitbucket\.org/i);
 
