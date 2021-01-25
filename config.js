@@ -2,6 +2,7 @@ var keySet0 = ['E', 'R', 'S', 'D', '<<', '>>', '<Ctrl-6>', '<Alt-p>', 'X'];
 var keySet1 = keySet0.concat(['f', 'gg', 'd', 'u', 'x']);
 
 unmapAllExcept(keySet0, /(mail|calendar|chat)\.google\.com/i);
+unmapAllExcept(keySet0, /outlook\.live\.com/i);
 unmapAllExcept(keySet1, /(twitter|reddit)\.com/i);
 unmapAllExcept(keySet1, /exelonix\.atlassian\.net/i);
 unmapAllExcept(keySet0, /(dev\.)?(monitoring|obre)\.exelonix\.com/i);
