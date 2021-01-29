@@ -10,7 +10,8 @@ unmapAllExcept(keySet0, /.+\.grafana\.net/i);
 unmapAllExcept(keySet0, /(ops)\.corona-warn-buzzer\.(de|com)/i);
 unmapAllExcept(keySet1, /bitbucket\.org/i);
 
-unmap('<Ctrl-h>')
+unmap('<Ctrl-h>');
+unmap('<Ctrl-6>');
 
 settings.hintAlign = "left";
 Hints.style('border: solid 3px #552a48; color:#efe1eb; background: initial; background-color: #552a48; font-family: sans-serif;');
