@@ -1,4 +1,4 @@
-var keySet0 = ['E', 'R', 'S', 'D', '<<', '>>', '<Ctrl-6>', '<Alt-p>', 'X'];
+var keySet0 = ['E', 'R', 'S', 'D', '<<', '>>', '<Alt-p>', 'X'];
 var keySet1 = keySet0.concat(['f', 'gg', 'd', 'u', 'x']);
 
 unmapAllExcept(keySet0, /(mail|calendar|chat)\.google\.com/i);
