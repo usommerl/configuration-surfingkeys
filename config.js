@@ -9,6 +9,7 @@ unmapAllExcept(keySet0, /(dev\.)?(monitoring|obre)\.exelonix\.com/i);
 unmapAllExcept(keySet0, /.+\.grafana\.net/i);
 unmapAllExcept(keySet0, /(ops)\.corona-warn-buzzer\.(de|com)/i);
 unmapAllExcept(keySet1, /bitbucket\.org/i);
+unmapAllExcept(keySet1, /github\.com/i);
 
 unmap('<Ctrl-h>');
 unmap('<Ctrl-6>');
