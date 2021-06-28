@@ -1,14 +1,15 @@
 var keySet0 = ['E', 'R', 'S', 'D', '<<', '>>', '<Alt-p>', 'X'];
-var keySet1 = keySet0.concat(['f', 'gg', 'd', 'u', 'x']);
+var keySet1 = keySet0.concat(['d', 'u']);
+var keySet2 = keySet0.concat(['f', 'gg', 'x']);
 
 unmapAllExcept(keySet0, /(mail|calendar|chat)\.google\.com/i);
 unmapAllExcept(keySet0, /outlook\.live\.com/i);
-unmapAllExcept(keySet1, /(twitter|reddit)\.com/i);
-unmapAllExcept(keySet1, /exelonix\.atlassian\.net/i);
+unmapAllExcept(keySet2, /(twitter|reddit)\.com/i);
+unmapAllExcept(keySet2, /exelonix\.atlassian\.net/i);
 unmapAllExcept(keySet0, /(dev\.)?(monitoring|obre)\.exelonix\.com/i);
 unmapAllExcept(keySet0, /.+\.grafana\.net/i);
 unmapAllExcept(keySet0, /(ops)\.corona-warn-buzzer\.(de|com)/i);
-unmapAllExcept(keySet1, /bitbucket\.org/i);
+unmapAllExcept(keySet2, /bitbucket\.org/i);
 unmapAllExcept(keySet1, /github\.com/i);
 
 unmap('<Ctrl-h>');
