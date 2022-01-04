@@ -11,6 +11,7 @@ api.unmapAllExcept(keySet0, /.+\.grafana\.net/i);
 api.unmapAllExcept(keySet0, /(ops)\.corona-warn-buzzer\.(de|com)/i);
 api.unmapAllExcept(keySet2, /bitbucket\.org/i);
 api.unmapAllExcept(keySet1, /github\.com/i);
+api.unmapAllExcept([], /stadia\.google\.com/i);
 
 api.unmap('<Ctrl-h>');
 api.unmap('<Ctrl-6>');
