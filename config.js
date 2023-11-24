@@ -17,3 +17,4 @@ api.unmap('<Ctrl-h>');
 api.unmap('<Ctrl-6>');
 
 settings.hintAlign = "left";
+settings.blocklistPattern = /.*docs\.google\.com\/presentation.*/
