@@ -17,4 +17,5 @@ api.unmap('<Ctrl-h>');
 api.unmap('<Ctrl-6>');
 
 settings.hintAlign = "left";
+settings.digitForRepeat = false;
 settings.blocklistPattern = /.*docs\.google\.com\/presentation.*/
