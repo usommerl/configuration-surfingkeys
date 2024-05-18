@@ -4,7 +4,7 @@ var keySet2 = keySet1.concat(['f', 'gg', 'x']);
 
 api.unmapAllExcept(keySet0, /(mail|calendar|chat|docs)\.google\.com/i);
 api.unmapAllExcept(keySet0, /outlook\.live\.com/i);
-api.unmapAllExcept(keySet2, /(twitter|reddit)\.com/i);
+api.unmapAllExcept(keySet2, /(x|twitter|reddit)\.com/i);
 api.unmapAllExcept(keySet2, /exelonix\.atlassian\.net/i);
 api.unmapAllExcept(keySet0, /(dev\.)?(monitoring|obre)\.exelonix\.com/i);
 api.unmapAllExcept(keySet0, /.+\.grafana\.net/i);
